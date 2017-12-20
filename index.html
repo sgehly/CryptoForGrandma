@@ -1,0 +1,397 @@
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500,600,700|Permanent+Marker" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cherry+Swash:400,700|Patrick+Hand+SC|Permanent+Marker|Schoolbell" rel="stylesheet">
+
+		<meta charset="utf-8"/>
+		<style>
+			body{
+				padding:0;
+				margin:0;
+				background:url(ricepaper2.png);
+				font-family: "Patrick Hand SC";
+			}
+			body,.section{
+				min-height:100%;
+			}
+			.section{
+				max-width:75%;
+				margin:0 auto;
+			}
+			*{
+				-webkit-margin-before: 0em;
+				-webkit-margin-after: 0em;
+				line-height:1.5em;
+			}
+			body,.flex{
+				display:flex;
+				flex-direction:column;
+			}
+			.flex-horizontal{
+				flex-direction:row !important;
+			}
+			.button{
+				border-radius:5px;
+				display:flex;
+				flex-direction: column;
+				text-align:center;
+				background:#3498db;
+				color:white;
+				text-decoration:none;
+				text-align:center;
+				padding:15px;
+				font-size:14px;
+				margin-top:30px;
+			}
+			.button:hover{
+				opacity:0.75;
+				cursor:pointer;
+			}
+			.button,.button:hover{
+				transition:.25s all;
+			}
+			.flex-center{
+				align-items:center;
+				justify-content: center;
+			}
+			h1,h2{
+				font-family:900;
+			}
+			h1{
+				font-size:64px;
+			}
+			.medium{
+				font-size:36px;
+			}
+			.small,p{
+				font-size:24px;
+			}
+			div.center{
+				display:inline-block;
+			}
+			p,.center{
+				text-align:center;
+			}
+			.flex-50{
+				flex:50%;
+				flex-direction:row;
+			}
+			.flex-50 div{
+				display:inline-block;
+				flex:2;
+				text-align: center;
+			}
+			@media screen and (max-width:960px){
+				.flex{
+					display:block !important;
+				}
+				*{
+					text-align: center !important;
+				}
+				.section:not(:first-child){
+					padding-top:25vh;
+				}
+				.section:first-child{
+					padding-top:10vh;
+				}
+				a p{
+					display:none;
+				}
+				img{
+					padding-top:50px;
+				}
+				.flex-50 div{
+					padding-top:25vh;
+				}
+				.mobile-hide{
+					display:none;
+				}
+				h1{
+					font-size:36px;
+				}
+				pre{
+					max-width:100%;
+					margin:0 auto;
+					overflow-x:scroll;
+				}
+				body{
+					padding-bottom:25vh;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="flex flex-center section">
+			<img src="icons8-bitcoin.svg" height="150px">
+			<h1>So this Bitcoin thing right?</h1>
+			<p class="medium">What exactly is it, and how can you get involved?</p>
+			<br>
+			<br>
+			<p class="small center">On this page we'll explain all of the concepts behind BitCoin (and other concepts related to it) in the simplest possible terms to hopefully get you to a place where you feel comfortable in becoming part of the ever-expanding crypto community.</p>
+		</div>
+		<div class="flex flex-center section">
+			<img src="icons8-warning_shield.svg" height="150px">
+			<h1>One Really Important Thing</h1>
+			<p class="small center" style="background:#e0678f;border-radius:5px;padding:15px;border:5px solid #8d6c9f;"><b style="font-weight:900;color:black;">This website is not investment advice and if you plan on investing large amounds of money into cryptocurrency you should speak with a financial advisor who is aware of your situation. This website is meant for educational purposes only.</u></b></p>
+		</div>
+		<div class="flex flex-center section">
+			<img src="icons8-atm.svg" height="150px">
+			<h1>Think of your bank account.</h1>
+			<br>
+			<p>With your bank, whether it be with Bank of America, Capital One, TD Bank, Wells Fargo, Citibank, or any other, your money is with <b>them</b> in <b>their</b> electronic system represented by numbers in <b>their</b> computers. You access your money using ATMs that are connected to <b>their</b> computers and know exactly how much money you have. This is called a <b><u>centralized service</u></b>. It is called a <b><u>centralized service</u></b> because the computers that know how much money each person has <b>belongs solely to the bank</b> and no other entity can access it besides you.</p>
+			<br>
+			<h3 class="medium">This sounds like a good system right?</h3>
+			<br>
+			<p>Yes, it does, in a perfect world. You don't want other people to be able to access your money in your account right? However, we do not live in a perfect world, and due to the instability of existing infrastructure and distrust of large corporations, governments, <b>and the banks themselves</b>, people have turned to a safer, more secure option.</p>
+		</div>
+		<div class="flex flex-center section">
+			<div>
+				<img src="icons8-police.svg" height="150px">
+				<img src="icons8-search.svg" height="150px">
+				<img src="icons8-business.svg" height="150px">
+				<img src="icons8-visible.svg" height="150px">
+			</div>
+			<h1>Why is this an issue?</h1>
+			<p class="small center">Recently, confidence in large companies, governments, and banks have begun to faulter. Social networks are accused of removing content, banks and crediting agencies are becoming the victims of hacks on a scarily regular basis, and the government has been accused of spying on our internet habits, all with the help of these <b><u>centralized service</u></b>. If these companies and governments have access to our data (remember, our data is stored on their machines, the definition of a <b><u>centralized service</u></b>), they have free reigns to our lives online.</p>
+		</div>
+		<div class="flex flex-center section">
+			<div class="mobile-hide">
+				<div style="width:150px" class="center">
+					<img src="icons8-verified_account.svg" height="50px">
+				</div>
+				<div style="width:150px" class="center">
+					<img src="icons8-verified_account.svg" height="50px">
+				</div>
+				<div style="width:150px" class="center">
+					<img src="icons8-verified_account.svg" height="50px">
+				</div>
+				<div style="width:150px" class="center">
+					<img src="icons8-verified_account.svg" height="50px">
+				</div>
+				<div style="width:150px" class="center">
+					<img src="icons8-verified_account.svg" height="50px">
+				</div>
+			</div>
+			<div>
+				<img src="people/icons8-manager.svg" width="150px">
+				<img src="people/icons8-workers_male.svg" width="150px">
+				<img src="people/icons8-student.svg" width="150px">
+				<img src="people/icons8-user_female.svg" width="150px">
+				<img src="people/icons8-user.svg" width="150px">
+			</div>
+			<h1>What's the Solution?</h1>
+			<p class="small center">Imagine a scenario where instead of your computer talking to another single computer belonging to a company, bank, or government, it talked to many different computers belonging to people just like you and me. Instead of you posting a status update to Facebook, you would post to Nancy, Ben, Jeffrey, Tom, Jim, and 25 million other people, who would all now understand that you wished someone a happy birthday, and be able to confirm that you sent it if asked by someone else. Facebook or a government would not be able to take that post down if it was posted on half a million different computers that did not belong to them.</p>
+		</div>
+		<div class="flex flex-center section">
+			<div>
+				<img src="icons8-computer.svg" height="150px">
+				<img src="icons8-computer.svg" height="150px">
+				<img src="icons8-computer.svg" height="150px">
+				<img src="icons8-computer.svg" height="150px">
+				<img src="icons8-computer.svg" height="150px">
+			</div>
+			<h1>What is Decentralization?</h1>
+			<p class="small center">The scenario described above is called <b><u>decentralization</u></b>. It is called that because there is no single computer that knows what you posted for sure, whether that be a financial transaction or a cat picture posted to social media, but 25 million computers can prove that you posted the same cat picture. <b><u>Decentralization</u></b> is based off of trust in numbers and multiple copies of the same information.</p>
+		</div>
+		<div class="flex flex-center section">
+			<div>
+				<img src="icons8-lock_2.svg" height="150px">
+			</div>
+			<h1>But wait, that sounds dangerous!</h1>
+			<br>
+			<p class="small center" style="background:#e0678f;border-radius:5px;padding:15px;border:5px solid #8d6c9f;"><b style="font-weight:900;color:black;">For clarity: Never put your current financial information on the web or send it to a friend. This is a critical difference between centralized and decentralized services. All major banks are centralized and therefore transparency does not apply.</u></b></p>
+			<br>
+			<p class="small center">With <b><u>decentralized services</u></b>, the more people that know the correct information the more secure that information is and the less likely it is to change without your permission. If one person wants to hack your bank account they simply need a username and password, but when it comes to <b><u>decentralized services</u></b>, it is nearly impossible to be "hacked" without the hacker being able to retrieve a long and complicated text file called a <b><u>private key</u></b> that belongs to you. If a hacker can access this key file and your data, they can make requests to the blockchain on your behalf, such as transferring coins.</p>
+		</div>
+		<div class="flex flex-center section">
+			<div>
+				<img src="icons8-key.svg" height="150px">
+			</div>
+			<h1>Like the one to my door?</h1>
+			<p class="small center">Not quite. A <b><u>private key</u></b>, in the context of computers, is a file that no one else has, that can be used to decrypt information and edit it. A <b><u>private key</u></b> looks like this:</p>
+			<br>
+<pre>
+-----BEGIN RSA PRIVATE KEY-----
+MIIJKQIBAAKCAgEAk7YpWOsmk92DchFRlthPJGHhDkjVlCPWttoEoxnkhM9lsEi8
+z054fG34QL301h3ahnLkDV1eE9vG+oknTO+mOpJBrZ5Vr/aJ89JPhR/Kuy6paA2Z
+g4G5h0Dq6ahKUZ74ovgddbnokxwNxccxuFlls9nINGfrR5hM8ve9GkNGgl4NWtnt
+PanhxVB0IaccpIRBAe4VuP+WhNvC5mMZqJYFU8kHQfLwdYwZZXJLV0qwvTU8zvtx
+cC/IUUtcU5JORSNW36VaCCS6MaFsB1MZpj6ngbNKa4tKrlYuyqpBUgG6ADYPCi76
+4nWRSVX1f9BiH2y6AwBkF3rh+k7cJXvT5m2Se4MXm/af129zwYHH7gmcigNRT6Up
+ep7jv/UR9Pv5YzZjRzsx3yabxuXu0hpS19shWxPArVHEshyyzVD6wpOTrPKyxHaZ
+C/7JIvuxJz8D6CLw8S69gbaokPmm0A3qXzXG6+qkOC0OqzSgzA9WDzICq5M3SJvJ
+vzudKJn8hDb9AHebWUalQkjGyawH6IbbKugoC7p7DK2SQZDDHBy2vDKwZkbcrfM7
+V2ShziVfBpuKYoINrwRLXYIq6bWXILOtrwaE/lMD3otoBAMiNk297MBBGGvPP9hl
+v6ybh1rkiaqN06vxtCnWnFZBjolzwZ+9/O2Vk3Twf+BjdEi/xzgblsRR170CAwEA
+AQKCAgEAiqTuxmFhwmSm3khXNqkuD843ejrvDa9d+B9HPvgswGQS5JZBcqwK93AZ
+Flu2FcvLs2rfl5PNnAIsEDjwRIykkFF7iEUX1KQp9EuxDBk9JtizddFeCEuZItTS
+KiMmLtpyMjWFIV0wafRpEPzZNFnk1h1Sh64K7xaLE3tpad8/rVouWto2jiyIl7Xe
+az/56ImiovcgOJbeZzIHDEx0ZwL5WR1VzJcFELBBnjDbesHGhrITs4vbfBu9gGCl
+9mNbSBXVkvIXQZGHmtITHgToDFy+yUTKU4tYu651GREZYqnwNgaHs11Ja4pCpn0i
+g6fKkghxyCNzz34t4c5nYF+ME7tBQ3ADIuGuebFMIug9u4hJhLoXXpsxJg9RKNJv
+6lvquv6NVdsg4f5QnxjIvvUu592i9KDbDS5M3I/3yxdxoOF9L5a43QiIIBIE5ASq
+0Ca9wrF47nMaxrLNPhJu7QUxlthH/HavBCgLuTPTeCp0eJ7wkdNbB/uppH8uvvyN
+uwsk5lnuJW1mFrr9gWFuCsuHsGyk6givq4qZFnswIa5m0EfCLClESccuU3++DBkW
+z7yn5K5sMn04qtr/oLAOfBTgvKfTnAs9Z3OXw/L3HIu4XcO+0LjVBUy98ESRinNX
+ylhIzCfAn+4O+j7WW1Zf/arTckUMo2pHQSKgm7/01IdMWKxG5lkCggEBAOKXOAmz
+Jvu/Iu7v/w5LAGBumQ+Hqxj4tv02MAvKvsAjLrQVEjVND9+mlOTP7bfJX7jrjy7Q
+iMB8HfS/Fcgads4X2tKJJoFPVl96IDBjNuzyhNqxkfENpnnK1T3uMqzwSgTSo1Pz
+Sjv4Jgzxzf8uu6XFku6SIy49wz8r+iMa6Bm/NHzDAezrXoMm1/W1Svv+Gr+JchGA
+WaxWL/+YdH3Yec1qaT2ZQGKJc8G/OddZSYD5ua9P102EM7FXM4M/3C+gV83e/GLa
+I8lB06oErOd12ho4m7OXD6Vd54K4hI1axgs1xvhtBRYhOTrqj+GkTs8CAG7CJWMw
+cSlx3M90pAV1/RMCggEBAKbiE8kHYFuTtU2Q4N2ERbYcrqImvsy2CjoItjtLp1hC
+l1K491QHFkVILpGRV8U6hknLx2CHh80kjWvHLjv4lkCrYI75beiXvxHtlEwWXpjR
+a1q1YAFRGe1QohgDLploGqZFus5nVybVbYtZWL9lMUHp83DmVxLT2t26m++Tv/6f
+YL5Iek0bcsFF5HBG9cUSbvjKDPZkUZjfTC/+VRijVl/KxAqsBmtnTOJPPDFWPTFQ
+8p74z35pDaEKENlQWCjrE5wzsi/hyPndqETViL3uo/kFbIMDhQ+ubQso135izV6g
+i07daIyXDEADuLfgz41W2pWJ+HdIT1plvkcwVTdMge8CggEAD6+6UGmXpEv6JiJ1
+PM8SapqdfAa/YI4vVN5Ae0CA7hpBbHQc+5WnKKuGmUSPx25ocwvTsMD9Bp5REJV9
+84lpeiEKpBKcmM0eRKPWwKLNtZ+gdOdgHBj+0mWpV4068t/7r9PJPNGV7Qrjz3eZ
+9DWPBg3keyGgz920u5XWzkFZmhazkoOJiZZNx7STtM3lMAbKYUIppG6HRrf8wKwU
+PHYVEJRyTrJiU7ACVIJhhbgHr6caJLnZROOHFJrd1RNBsgZercDnJgzF93PYLGgA
+dFGjVLdgiBFIIwGaOmF9w69qEHKboK0jcgHAzYRZi5xtXEVeNEy6e+BppR3d1HrV
+tA8UAwKCAQBXNst0QgCfm2Ai+1YpLlloRTEW2PzZ60EI90iVUIJSY+rFdpj7NwDy
+kDiWJskh7+YCZxb5YZsdIL8v1lZZTR7pCSdbUQuZhMR8UBcydHZXkwpxy1wzE/li
+xsMPnYoa7gcPYl2wRN2NE/k93CG/VNkbQ3LQS/CxjDpTqpSX7jVmklBy4VnZNkEQ
+tMAf1VXX+jw4lQ+VLPRf2kLsyhQa3jHjugoeMazhMIlDtHkWp6UvQsipQArgW3Kd
++K65g32vVLtY5MN4tpzbyHWKE7Z03GShXa5KAermORgPvvZvvJ7rlyd2vctHviDO
+y6MbpceSbBOsFwDdBdNCwO1iMuY2EivNAoIBAQCuxNWXMvL64P0IICfgRU0PwGN0
+yIwEsRZKud74juTDwLnDKUBqJJPe+q45hL4PQsvY+DjCfpLFRH81lZjqb5eLw4G0
+ayaDul/ox53VYyKR693kaWaApw+Dwki7gh0q1PV6EPiyogB5RbcPjSlSgsktk1K2
+o7kL8+li0ZTWrDTC9HAV6hkr6bJ/h8acAn6tEXIQT4mZbldE/dVewUqjN+nHMSdG
+mEc9Sh7TQs8kkcyRVvIU2+YGa46UYoNSyEh9UJ+225V3+Rgt+Omr9BcEJlly38Tz
+97d7pnqvaV3QR3Ot0pvABC0JGJvbPU/aXUKc1P/NJnqw4NvK7mG7PjNsLXuM
+-----END RSA PRIVATE KEY-----
+</pre>
+			<br>
+			<p>As you might guess, this is nearly impossible to guess, and is therefore an extremely good tool when it comes to verifying who owns what on the internet. At the very least it is more secure than your password, which, if it's "password", please go change it immediately.</p>
+			<br>
+			<p>The bottom line is that these <b><u>private keys</u></b> are used to prove ownership of information, so only you have access to your bitcoins or any other arbitrary kind of information.</p>
+		</div>
+		<div class="flex flex-center section">
+			<img src="icons8-coins.svg" height="150px">
+			<h1>So what IS Bitcoin?</h1>
+			<p class="small center">Now that you understand the idea of <b><u>decentralization</u></b>, we can start to talk about the specific implementations of it, including <b><u>Bitcoin</u></b>. <b><u>Bitcoin</u></b> is based on "<b><u>blockchain</u></b>" technology. Every coin, <b><u>Bitcoin</u></b>, <b><u>Ethereum</u></b>, <b><u>LiteCoin</u></b>, <b><u>DogeCoin</u></b>, <b><u>Ripple</u></b>, <b><u>MobileCoin</u></b> and so forth have their own ledger called a <b><u>blockchain</u></b> that keeps track of transactions on the network, and how many coins everyone has. Remember above when we talked about trust and how if enough computers confirm something to be true, it is? The same thinking applies here. When people send or receive <b><u>Bitcoin</u></b> (or others, they will be collectively referred to as <b><u>cryptocurrency</u></b> from here on out), it is logged in that <b><u>cryptocurrency</u></b>'s <b><u>blockchain</u></b> and confirmed by a bunch of other computers to be legitimate (if the transaction is proven to be yours with your <b><u>private key</u></b>). <b><u>Cryptocurrencies</u></b> are stored in <b><u>wallets</u></b>, which are programs designed to keep track of your <b><u>cryptocurrency</u></b> on computers.</p>
+		</div>
+		<div class="flex flex-center section">
+			<img src="icons8-shopping_cart.svg" height="150px">
+			<h1>How do I get cryptocurrency?</h1>
+			<p class="small center">There are two ways to get <b><u>cryptocurrency</u></b> outside of receiving it from someone else. In the early days, you would run a computer program that may or may not yield <b><u>cryptocurrency</u></b>. This was called "<b><u>mining</u></b>", and it would use up all of your computer's energy and sometimes get you some <b><u>cryptocurrency</u></b>. As coins have become more popular, <b><u>mining</u></b> has become less effective, and it is much more common for people to use <b><u>exchanges</u></b>, which are websites where you can exchange fiat (USD, EUR, etc) for <b><u>cryptocurrency</u></b>. Read on for more information about <b><u>exchanges</u></b>.</p>
+		</div>
+		<div class="flex flex-center section">
+			<img src="icons8-online_money_transfer.svg" height="150px">
+			<h1>Exchanges?</h1>
+			<p class="small center"><b><u>Excahnges</u></b> are websites that allow you to deposit <b><u>fiat</u></b> currency (USD/EUR/etc) and retreive <b><u>cryptocurrency</u></b> in return. Trustworthy websites (that you should probably stick to) are <b>Coinbase</b>, <b>BitStamp</b>, and <b>Kraken</b>. While simple in concept, it is important to know that these websites are <b><u>centralized services</u></b> (remember these? They are services that host your data on their computers instead of your own), and therefore should not be completely trusted with your coins for long periods of time. <b><u>Exchanges</u></b> use <b><u>wallets</u></b> just like your computer, but store everyone's <b><u>cryptocurrency</u></b> and only allow you to access yours through their website. You should transfer <b><u>cryptocurrency</u></b> to your own <b><u>wallet</u></b> if you plan on holding them for an extended period of time. <b><u>Centralized services</u></b> are much easier to hack, remember?</p>
+		</div>
+		<div class="flex flex-center section">
+			<img src="icons8-happy_mac.svg" height="150px">
+			<h1>Why Cryptocurrency?</h1>
+			<p class="small center"><b><u>Cryptocurrency</u></b> is the next generation of finance. As with anything, it has a list of pros and cons attached to it.</p>
+			<br>
+			<div class="flex" style="width:100%;flex-direction:row;">
+				<div class="flex" style="padding-right:25px;flex:50%;">
+					<img src="icons8-happy.svg" height="150px">
+					<h1 class="large center">Pros</h1>
+					<br>
+					<p><b>Trustworthy</b></p>
+					<p>As we've seen, <b><u>cryptocurrency</u></b> is based on the concept of <b><u>decentralization</u></b> which is more trustworthy than <b><u>centralized services</u></b> as your informaton cannot be changed by anyone but someone with your secure <b><u>private key</u></b>.</p>
+					<br>
+					<br>
+					<p><b>Popular</b></p>
+					<p><b><u>Cryptocurrency</u></b> is currently one of the hottest topics in the news and online right now, if it wasn't you probably wouldn't be reading this page right now. This means there are plenty of resources (including this one) for the community to grow.</p>
+					<br>
+					<br>
+					<p><b>Free</b></p>
+					<p><b><u>Cryptocurrency</u></b> encourages liberty due to its lack of regulation in most places and its core concept of <b><u>decentralization</u></b>. This allows more freedom and flexibility when it comes to spending, investing, and saving.</p>
+					<br>
+					<br>
+					<p><b>Legal</b></p>
+					<p>While a gray area in taxation, and while there are plenty of illegal uses for cryptocurrency, there are regulations and fraud prevention measures in most exchanges. Be sure to check with the laws in your country and state (if applicable) before investing.</p>
+				</div>
+				<div class="flex" style="padding-left:25px;flex:50%;">
+					<img src="icons8-sad.svg" height="150px">
+					<h1 class="large center">Cons</h1>
+					<br>
+					<p><b>Volatile</b></p>
+					<p>Due to its surge in popularity, <b><u>cryptocurrency</u></b>'s price is currently highly volatile, meaning it can drop and rise hundreds of dollars in minutes. Be sure to consult with a financial advisor before investing. Invest responsibly.</p>
+					<br>
+					<br>
+					<p><b>Unbacked</b></p>
+					<p>While the same argument could be made for the US dollar, the price of <b><u>cryptocurrency</u></b> is not backed by any government or bank, and therefore is uninsured and unregulated. Again, invest responsibly.</p>
+					<br>
+					<br>
+					<p><b>Targeted</b></p>
+					<p>Due to the first two cons, hackers are often targeting holders of <b><u>cryptocurrency</u></b> as it is uninsured and the easiest way to make a profit. The concept of <b><u>decentralization</u></b> being trustworthy and unhackable only holds true for you if your <b><u>private keys</u></b> stay secure and your coins actually belong to your <b><u>private keys</u></b>.</p>
+					<br>
+					<br>
+					<p><b>Stigma</b></p>
+					<p>When most people think of <b><u>cryptocurrency</u></b>, most people think of the black market. While <b><u>cryptocurrency</u></b> is popular due to it being unregulated and mostly unmonitored, there are perfectly legal ways to use <b><u>cryptocurrency</u></b>, including online shopping, paying friends, and exchanging for cash in real life.</p>
+				</div>
+			</div>
+		</div>
+		<div class="flex flex-center section">
+			<img src="icons8-error.svg" height="150px">
+			<h1>A Few More Important Things</h1>
+			<ul class="small">
+				<li>Take note of transaction fees. These buggers can end up costing you a lot of money and get larger as the <b><u>cryptocurrency</u></b> becomes more popular. Make sure to check on these when using <b><u>exchanges</u></b>.</li>
+				<li>Be sure to download <b><u>wallets</u></b> from official sources, meaning only from the <b><u>cryptocurrency</u></b>'s official website. These will be listed in the next panel.</li>
+				<li>Have good online hygiene, including never reusing passwords, using complex passwords, using a password manager, using two-factor authentication when possible, and not downloading programs from sketchy sources. Keep your <b><u>cryptocurrency</u></b> safe!</li>
+				<li>Be suspicious of everything when it comes to interacting with any resource about <b><u>cryptocurrency</u></b> - including this one - Be sure to check multiple sources and make sure everything stated here is true - hackers are on the prowl.</li>
+				<li>If you are successful with <b><u>cryptocurrency</u></b>, don't flaunt it. It not only makes you a target for hackers but, just, like, dont. Thanks.</li>
+		</div>
+		<div class="flex flex-center section">
+			<img src="icons8-cat.svg" height="150px">
+			<h1>Thanks for Reading!</h1>
+			<p>If there is anything factually incorrect on this site please feel free to submit a pull request on GitHub for this site. If you are interested in purchasing <b><u>cryptocurrency</u></b> (and have read up on the subject more and have consulted with an advisor etc etc), it would be awesome if you would use my Coinbase affiliate link, where if you deposit $100 into the site for <b><u>cryptocurrency</u></b>, it will reward us both with $10 worth of <b><u>Bitcoin</u></b> for free!</p>
+
+			<a class="button" href="https://www.coinbase.com/join/5639739678f4bf12fc000075" target="_blank">
+				<h2>My Coinbase Affiliate Link</h2>
+				<p>(https://www.coinbase.com/join/5639739678f4bf12fc000075)</p>
+			</a>
+		</div>
+		<div class="flex flex-center section">
+			<img src="icons8-book_shelf.svg" height="150px">
+			<h1>Official Resources</h1>
+			<div class="flex flex-horizontal">
+				<a class="button" href="https://coinbase.com">
+					<h2>[Exchange] Coinbase</h2>
+					<p>(https://www.coinbase.com)</p>
+				</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<a class="button" href="https://bitstamp.net">
+					<h2>[Exchange] BitStamp</h2>
+					<p>(https://www.bitstamp.net)</p>
+				</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<a class="button" href="https://kraken.com">
+					<h2>[Exchange] Kraken</h2>
+					<p>(https://www.kraken.com)</p>
+				</a>
+			</div>
+			<br>
+			<div class="flex flex-horizontal">
+				<a class="button" href="https://bitcoin.org">
+					<h2>[Website/Wallet] Bitcoin</h2>
+					<p>(https://www.bitcoin.org)</p>
+				</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<a class="button" href="https://ethereum.org">
+					<h2>[Website/Wallet] Ethereum</h2>
+					<p>(https://www.ethereum.org)</p>
+				</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<a class="button" href="https://litecoin.org">
+					<h2>[Website/Wallet] Litecoin</h2>
+					<p>(https://www.litecoin.org)</p>
+				</a>
+			</div>
+			<br>
+			<div class="flex flex-horizontal">
+				<a class="button" href="https://www.khanacademy.org/economics-finance-domain/core-finance/money-and-banking#bitcoin">
+					<h2>[Further Reading] Khan Academy</h2>
+					<p>(https://www.khanacademy.org/economics-finance-domain/core-finance/money-and-banking#bitcoin)</p>
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
