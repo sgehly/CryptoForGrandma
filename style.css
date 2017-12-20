@@ -1,0 +1,113 @@
+body{
+	padding:0;
+	margin:0;
+	background:url(/img/ricepaper2.png);
+	font-family: "Patrick Hand SC";
+}
+body,.section{
+	min-height:100%;
+}
+.section{
+	max-width:75%;
+	margin:0 auto;
+}
+*{
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	line-height:1.5em;
+}
+body,.flex{
+	display:flex;
+	flex-direction:column;
+}
+.flex-horizontal{
+	flex-direction:row !important;
+}
+.button{
+	border-radius:5px;
+	display:flex;
+	flex-direction: column;
+	text-align:center;
+	background:#3498db;
+	color:white;
+	text-decoration:none;
+	text-align:center;
+	padding:15px;
+	font-size:14px;
+	margin-top:30px;
+}
+.button:hover{
+	opacity:0.75;
+	cursor:pointer;
+}
+.button,.button:hover{
+	transition:.25s all;
+}
+.flex-center{
+	align-items:center;
+	justify-content: center;
+}
+h1,h2{
+	font-family:900;
+}
+h1{
+	font-size:64px;
+}
+.medium{
+	font-size:36px;
+}
+.small,p{
+	font-size:24px;
+}
+div.center{
+	display:inline-block;
+}
+p,.center{
+	text-align:center;
+}
+.flex-50{
+	flex:50%;
+	flex-direction:row;
+}
+.flex-50 div{
+	display:inline-block;
+	flex:2;
+	text-align: center;
+}
+@media screen and (max-width:960px){
+	.flex{
+		display:block !important;
+	}
+	*{
+		text-align: center !important;
+	}
+	.section:not(:first-child){
+		padding-top:25vh;
+	}
+	.section:first-child{
+		padding-top:10vh;
+	}
+	a p{
+		display:none;
+	}
+	img{
+		padding-top:50px;
+	}
+	.flex-50 div{
+		padding-top:25vh;
+	}
+	.mobile-hide{
+		display:none;
+	}
+	h1{
+		font-size:36px;
+	}
+	pre{
+		max-width:100%;
+		margin:0 auto;
+		overflow-x:scroll;
+	}
+	body{
+		padding-bottom:25vh;
+	}
+}
